@@ -19,7 +19,7 @@ class Asteroid(RoomObject):
         
         # set travel direction
         angle = random.randint(135,225)
-        self.set_direction(angle, 10)
+        self.set_direction(angle, 15)
 
         # register events
         self.register_collision_object("Ship")

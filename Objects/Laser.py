@@ -48,5 +48,5 @@ class Laser(RoomObject):
         elif other_type == "Astronaut":
             self.room.asteroid_shot.play()
             self.room.delete_object(other)
-            self.room.score.update_score(-10)
+            self.room.score.update_score(-20)
         self.room.delete_object(self)
